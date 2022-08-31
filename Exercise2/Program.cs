@@ -43,15 +43,7 @@
             public override int Weight { get; set; }
 
             public Lion() { }
-
-            public Lion(string name, int weight) : base(name, weight)
-            {
-                name = Name;
-                weight = Weight;
-            }
-
-            
-
+      
             public override void SetMe(string name, int weight)
             {
                 Name = name;
@@ -71,12 +63,6 @@
 
             public Tiger()
             {
-            }
-
-            public Tiger(string name, int weight)
-            {
-                Name = name;
-                Weight = weight;
             }
 
             public override void SetMe(string name, int weight)
